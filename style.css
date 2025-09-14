@@ -551,12 +551,20 @@ textarea {
     padding: 12px;
     width: 30%;
     margin-left: 350px;
-    border-radius: 20px;
+    border-radius: 100px;
     border: none;
     background-color: #c12828;
     color: white;
     font-size: 30px;
     font-weight: 700;
+}
+
+
+.submit:hover {
+  cursor: pointer;
+  background-color: #FDBB2D;
+  transition: all 0.3s ease;
+
 }
 
 
