@@ -567,6 +567,94 @@ iframe {
   width: 69%;
 }
 
+section {
+  display: flex;
+  margin-top: 100px;
+}
+
+
+
+.Price-List {
+  margin-left: 550px;
+}
+
+.Price-List h1 {
+  font-size: 46px;
+  font-weight: 700;
+}
+
+
+.Price-List p {
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+
+.prices h6 {
+  display: flex;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: .5rem;
+  margin-top: 10px;
+}
+
+
+
+
+.price-list-thumb-divider {
+  background: #717275;
+  display: flex;
+  width: 500px;
+  flex: auto;
+  margin: auto 15px 0;
+  border: 1px solid #717275;
+}
+
+
+.price-img{
+  background-color: #d6a354;
+  width: 23%;
+  height: 275px;
+  border-radius: 20px;
+  position: relative;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.sawirka img{
+  width: 430px;
+    height: 275px;
+    border-radius: 20px;
+    transform: rotate(8deg);
+    object-fit: cover;
+}
+
+
+.price-img:hover {
+  background: linear-gradient(90deg, #FDBB2D 0%, #22C1C3 100%);
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+
+.prices span {
+  color: #d6a354;
+}
+        
+
+
+.color {
+  margin-left: 500px;
+  margin-top: 100px;
+  background-color: #f0f8ff;
+  padding: 100px 50px;
+  text-align: center;
+}
+
+.color h1 {
+  font-size: 46px;
+  font-weight: 700;
+}
+
 
 .Information {
   display: flex;
